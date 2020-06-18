@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id="@+id/linear_layout_list_item">
+
+    <TextView
+        android:id="@+id/magnitude_text"
+        style="@style/MagnitudeNumber"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:text="8.9" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/distance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/NearOfCity"
+            tools:text="12KM of" />
+
+        <TextView
+            android:id="@+id/city_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/CityName"
+            tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/whole_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_text"
+            style="@style/DateAndTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Mar 6, 2010" />
+
+        <TextView
+            android:id="@+id/time_text"
+            style="@style/DateAndTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="3:00 PM" />
+    </LinearLayout>
+</LinearLayout>
