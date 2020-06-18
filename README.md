@@ -11,8 +11,6 @@ from the U.S. Geological Survey (USGS) organization.
 * Getting more details for each earthquake
 
 
-More info on the USGS Earthquake API available at:
-https://earthquake.usgs.gov/fdsnws/event/1/
 
 ## Example of Application
 
@@ -23,6 +21,8 @@ https://earthquake.usgs.gov/fdsnws/event/1/
 <img src="https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/5.png"  width="360" height="640"/>
 
 
+More info on the USGS Earthquake API available at:
+https://earthquake.usgs.gov/fdsnws/event/1/
 
 
 
