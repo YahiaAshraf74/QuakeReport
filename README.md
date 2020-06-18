@@ -15,7 +15,7 @@ More info on the USGS Earthquake API available at:
 https://earthquake.usgs.gov/fdsnws/event/1/
 
 ## Example of Application
-![](https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/1.png){height="36px"}
+<img src="https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/1.png"  width="20"/>
 ![](https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/2.png)
 ![](https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/3.png)
 ![](https://github.com/YahiaAshraf74/QuakeReport/blob/master/screenshots/4.png)
